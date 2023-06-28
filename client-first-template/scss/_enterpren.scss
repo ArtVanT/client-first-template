@@ -1,0 +1,37 @@
+.container3 {
+    margin: 0 auto;
+    max-width: 1460px;
+
+    .enterpren__wrapper {
+        padding-left: 137px;
+        display: flex;
+        padding-top: 156px;
+        max-width: fit-content;
+        height: fit-content;
+
+        .enterpren__content {
+            padding-right: 100px;
+            background-image: url('/img/Lines-enterpr-bg.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left;
+            width: 490px;
+            height: 346px;
+            padding-top: 100px;
+
+            .enterpren__text {
+                padding-left: 17%;
+                padding-top: 5%;
+            }
+        }
+
+        .enterpren__bg {
+            background-image: url('/img/Right-enterpr-bg.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 710px;
+            height: 496px;
+            margin-left: 160px;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+
+
+    
+.header__container {
+    display: flex !important;
+    justify-content: space-between;
+    
+
+    .header__logo {
+
+        padding-top: 24px;
+    }
+
+    .header__list {
+        display: flex;
+        list-style-type: none;
+        padding-left: 540px;
+
+        .header__item {
+            padding-top: 14px;
+        }
+
+        .header__item+.header__item {
+            padding-left: 50px;
+
+
+        }
+    }
+
+    .header__list-icons {
+        padding-top: 24px;
+        display: flex;
+
+        .header-icons__item+.header-icons__item {
+            padding-left: 16px;
+        }
+    }
+ 
+}
+
+
+
+@media (max-width: 1323px) {
+    .header__container{
+
+        display: none !important;
+        position: relative;
+        transition: all 3s !important;
+        margin: 0; 
+        .header__item{
+            padding-left: 12% !important;
+        }
+    }
+    .header-active{
+        display: flex !important;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 10px !important;
+        min-height: 100vh;
+        width: 100%;
+        margin: 0;
+        .header__logo{
+            display: flex;
+          padding-left: 45%;
+        }
+        .header__list{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding-left: 40% !important;
+            .header__item{
+                margin: 0;
+                display: inline-block;
+                padding-top: 50px;
+                a{
+                    font-size: 40px;
+                
+            }
+          
+       
+        }
+        }
+        .header__list-icons{
+            display: flex;
+            padding-left: 45%;
+           .header-icons__item{
+            padding-right: 30px;
+           }
+        }
+    }
+    
+.burger-btn{
+    display: block !important;
+    background: none;
+    width: 150px;
+    height: 100px;
+   .burger__img{
+    width: 150px ;
+    height: 100px;
+   }
+} }
+
+.burger-btn{ 
+    display: none;
+}

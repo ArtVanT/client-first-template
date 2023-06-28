@@ -1,0 +1,136 @@
+@use "header";
+@use "container__banner";
+@use "enterpren";
+@use "youtube-content";
+@use "main";
+@use "footer";
+
+body {
+    font-family: Inter;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    .container {
+
+        margin: 0 auto;
+        max-width: 1320px;
+        padding: 0,
+            20px;
+        // border: 3px solid red;
+    }
+}
+
+a {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #14142B;
+}
+
+h1 {
+    //styleName: Heading 1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 130%;
+    text-align: left;
+    color: #14142B;
+
+}
+
+p {
+    white-space: nowrap;
+    //styleName: Body 1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: left;
+}
+
+h2 {
+    //styleName: Heading 2;
+    white-space: nowrap;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #14142B;
+
+    .blue-link {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38.4px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+}
+
+button {
+    height: 38px;
+    max-width: 154px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F4F2FF;
+    background: #503AE7;
+}
+
+h3 {
+    //styleName: Heading 3;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+input[type=email] {
+    background: #F4F2FF;
+    border: none;
+    outline: none;
+}
+
+input[type=email]::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 150% */
+    /* Grey */
+    padding-left: 10px;
+    color: #AFB0B9;
+    opacity: 0.87;
+}
+
+.btn-desc {
+    //styleName: See more;
+    display: inline-block;
+    color: blue;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    //text-align: right;
+}
+
+.header-white {
+    color: #FFFFFF;
+}

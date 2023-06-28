@@ -1,0 +1,110 @@
+.container4 {
+    margin: 0 auto;
+    max-width: fit-content;
+    height: 512px;
+
+
+    .youtube__wrapper {
+        padding-top: 282px;
+        padding-left: 840px;
+        position: relative;
+        max-width: fit-content;
+   
+
+        &:before {
+            content: '';
+            background-image: url('/img/youtube-picture.jpg');
+            display: block;
+            block-size: contain;
+            width: 740px;
+            height: 512px;
+            position: absolute;
+            right: 50%;
+            top: 90px;
+        }
+
+        &:after {
+            content: '';
+            background-image: url('/img/Line-youtube-origins.svg');
+            height: 11px;
+            width: 58px;
+            position: absolute;
+            left: 96%;
+            bottom: 62%;
+        }
+
+        .blue-link {
+            color: #503AE7;
+            text-decoration: none;
+        }
+    }
+
+
+
+
+}
+@media(max-width: 1250px){
+    .container4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    .youtube__wrapper{
+        padding-right: 500px;
+        &:after{
+            left:  50%;
+        }
+        &:before{
+            max-width: 370px;
+            height: 256px;
+            background-size: contain;
+            top: 55%;
+            right: 55%;
+}
+}
+}
+}
+@media(max-width: 910px){
+    .container4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    .youtube__wrapper{
+        padding-right: 420px;
+        p{
+            font-size: 12px;
+        }
+        &:after{
+            left:  50%;
+        }
+        &:before{
+            max-width: 370px;
+            height: 256px;
+            background-size: contain;
+            top: 55%;
+            right: 47.5%;
+}
+}
+}
+}
+@media(max-width: 725px){
+    .container4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    .youtube__wrapper{
+        padding-right: 720px;
+        p{
+            font-size: 12px;
+        }
+        &:after{
+            left:  50%;
+        }
+        &:before{
+       display: none;
+}
+}
+}
+}
